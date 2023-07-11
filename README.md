@@ -1,4 +1,4 @@
-# house
+# HOUSE IS BUILD USING CSS AND HTML
 CSS- HOUSE 
 
 ![house](https://github.com/DharshiniUdayakumaran/house/assets/96525555/0deed0b4-c379-479c-a56f-c32164777406)
@@ -13,4 +13,4 @@ The CSS House project aims to demonstrate the power and flexibility of CSS in co
 By utilizing an external stylesheet, the styling rules for the house are stored in a separate CSS file, promoting modularity and reusability.
 
 
-
+happy coding .......
