@@ -1,0 +1,389 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: aqua;
+}
+
+.house {
+    width: 340px;
+    height: 200px;
+    background-color:#8b4513;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 25%;
+    margin-left: -30px;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 150px solid brown;
+    position: absolute;
+    top: -150px;
+    left: 0;
+}
+.roof2 {
+    width: 300px;
+	height: 150px;
+	transform: skew(45deg);
+	position: absolute;
+    background-color:maroon;
+    margin-top: -150px;
+    margin-left: 275px;
+}
+.basement{
+    width: 300px;
+    height: 202px;
+    position: absolute;
+    background-color: #8b4513;
+    margin-left: 342px;
+
+}
+
+.door {
+    width: 60px;
+    height: 100px;
+    background-color: darkred;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border: 2px solid black;
+    border-bottom: solid transparent;
+    transform: translateX(-50%);
+}
+
+.lock{
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    border:2px solid black;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+.window {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -0.5px;
+    margin-left: 325px;
+   
+}
+
+.window:before, .window:after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+}
+
+.window:before {
+    width: 2px;
+    height: 80px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.window:after {
+    width: 80px;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.round{
+  height: 50px;
+  width: 50px;
+  border-radius: 125px;
+  background-color: white;
+  position:absolute;
+  margin: 130px;
+  margin-left: 140px;
+  margin-top: -75px;
+  
+}
+.sun {
+    width: 90px;
+    height: 90px;
+    background-color: darkorange;
+    border-radius: 50px;
+    margin-bottom: 200px;
+    margin-top: -250px;
+    
+}
+
+.clouds{
+    position: absolute;
+    height: 50px;
+    width: 240px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    margin-top: -250px;
+    margin-left: 130px;
+    animation-name: slidetoright;
+    animation-duration: 30s;
+    opacity: 1;
+   
+    animation-iteration-count: infinite;
+    
+  }
+  .cl1{
+    position: absolute;
+    height: 90px;
+    width:90px;
+    background-color: whitesmoke;
+    border-radius: 45px;
+    margin-top: -70px;
+    margin-left: 30px;
+  
+  }
+  .cl2{
+    position: absolute;
+    height: 90px;
+    width:90px;
+    background-color: whitesmoke;
+    border-radius: 45px;
+    margin-top: -70px;
+    margin-left: 103px;
+  }
+  .cl3{
+    position: absolute;
+    height: 60px;
+    width:60px;
+    background-color: whitesmoke;
+    border-radius: 32.5px;
+    margin-top: -40px;
+    margin-left: 180px;
+  }
+  .cl4{
+    position: absolute;
+    height: 60px;
+    width:60px;
+    background-color: whitesmoke;
+    border-radius: 32.5px;
+    margin-top: -40px;
+    margin-left: -10px;
+  }
+
+  #left{
+    margin-left: 300px;
+    animation-name: slidetoleft;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+    
+  }
+
+  .crow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 1px;
+    width: 2px;
+    margin-top:-500px;
+    margin-left: -200px;
+    transform: translateX(50px);
+    opacity: 1;
+    
+
+  }
+  
+  .crow1 {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 1px;
+    width: 2px;
+    margin-top: 30px;
+    margin-left: 300px;
+    transform: translateX(50px);
+   
+  }
+  
+  .crow2 {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 1px;
+    width: 2px;
+    margin-top: 100px;
+    margin-left:-900px;
+    transform: translateX(50px);
+  }
+  
+  
+    
+  
+
+    
+  
+  .tree{
+    margin-left: -600px;
+    position:absolute;
+    margin-bottom : -345px;
+    
+  }
+  .stem{
+    height:200px;
+    width:40px;
+    background:  maroon;
+
+  }
+
+  
+  .leaf{
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    background-color: greenyellow;
+    border-radius: 50px;
+    margin-top: -249px;
+    margin-left: -110px;
+
+  }
+.leaf-1{
+    position: absolute;
+    height: 90px;
+    width:90px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    margin-top: -70px;
+    margin-left: 30px;
+  
+  }
+  .leaf-2{
+    position: absolute;
+    height: 90px;
+    width:90px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    margin-top: -70px;
+    margin-left: 103px;
+  }
+  .leaf-3{
+    position: absolute;
+    height: 60px;
+    width:60px;
+    background-color: greenyellow;
+    border-radius: 32.5px;
+    margin-top: -40px;
+    margin-left: 180px;
+  }
+  .leaf-4{
+    position: absolute;
+    height: 60px;
+    width:60px;
+    background-color: greenyellow;
+    border-radius: 32.5px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+
+  .leaf-5{
+    position: absolute;
+    height: 90px;
+    width:90px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-left: 30px;
+  
+  }
+  .leaf-6{
+    position: absolute;
+    height: 90px;
+    width:90px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    margin-top: 0.75px;
+    margin-left: 103px;
+  }
+  .leaf-7{
+    position: absolute;
+    height: 60px;
+    width:60px;
+    background-color: greenyellow;
+    border-radius: 32.5px;
+    margin-top: 0.75px;
+    margin-left: 180px;
+  }
+  .leaf-8{
+    position: absolute;
+    height: 60px;
+    width:60px;
+    background-color: greenyellow;
+    border-radius: 32.5px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  .fruits{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: -30px;
+    margin-left: 60px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  .fruit1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: 70px;
+    margin-left: -30px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  .fruit2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: 60px;
+    margin-left: 150px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  .fruit3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: 80px;
+    margin-left: 70px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  .fruit4{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: -13px;
+    margin-left: 130px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  
+  @keyframes slidetoright{
+    100%{transform: translateX(590px);}
+  }
+  @keyframes slidetoleft{
+    50%{transform: translateX(-590px);}
+  } 
+
+  
